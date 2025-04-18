@@ -1,16 +1,50 @@
-Hola Mi nombre es Brian Brown y soy de Santiago, Chile.
 
-Este es mi desafio #1 de sata science por alura latam.-
+Este proyecto tiene como finalidad analizar el desempeño de cuatro tiendas de la plataforma AluraStore Latam, utilizando distintas métricas como facturación, calificaciones de clientes, costos de envío y ubicación geográfica de las ventas. El objetivo final es tomar decisiones estratégicas de negocio basadas en datos reales.
 
-El proyecto considerara  
+##  Análisis Realizados
 
-El propósito del análisis realizado.-
-  El ananlisis busca poder responder, en base a informacion otorgada por el cliente, cualk de las 4 tiendas se debe vender en base a su desempeño.-
+ **Facturación Total por Tienda**  
+   Se calculó la suma de los ingresos por tienda.
 
-La estructura del proyecto y organización de los archivos.
-  -sub archivo con las bases de datos 
-  -AluraStoreLatam.ipnb
+ **Calificación Promedio**  
+   Se analizó la satisfacción de los clientes a través del promedio de calificaciones por tienda.
 
-Ejemplos de gráficos e insights obtenidos, imagenes
+ **Costo de Envío Promedio**  
+   Se estudió el costo logístico promedio por tienda.
 
-Instrucciones para ejecutar el notebook.
+ **Análisis Comparativo**  
+   Se unificaron las métricas en un DataFrame para comparar el rendimiento global de cada tienda.
+
+ Análisis Geográfico
+
+Se utilizó la latitud y longitud de cada venta para generar mapas y visualizar:
+
+- Distribución geográfica de las ventas por tienda
+- Áreas de alta concentración de compras mediante Heatmaps
+- Zonas donde ciertas tiendas tienen mejor o peor desempeño
+
+Esto permitió detectar patrones espaciales que podrían estar afectando el rendimiento comercial.
+
+**Informe de Desempeño Final**  
+   Se generó un informe dirigido al Sr. Juan, recomendando qué tienda presenta el rendimiento más bajo y debería ser vendida.
+
+
+
+
+ 
+
+
+
+ Tecnologías Utilizadas
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Folium
+- Jupyter Notebook
+
+
+**Brian Brown Coopman**    
+📍 Chile  
+
